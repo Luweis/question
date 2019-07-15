@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": false,
+    "outDir": "./",
+    "alwaysStrict": true,
+    "removeComments": false,
+    "strictFunctionTypes": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true
+  },
+  "include": [
+    "./models",
+    "./enum",
+    "./schemas",
+    "app.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
